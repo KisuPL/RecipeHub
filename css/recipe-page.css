@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height:100vh;
+    margin: 0;
+}
+
+.header, .footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5vw;
+    padding-left: 16px;
+    background-color: aqua;
+    color: blueviolet;
+    text-align: left;
+    min-width: 400px;
+}
+
+.content{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    gap: 25px;
+    flex-grow: 1;
+}
+
+.sidebar{
+    display: flex;
+    background-color: rgb(118, 164, 204);
+    width: 10vw;
+    min-width: 40px;
+    padding: 16px;
+    align-items:start;
+}
+
+ul{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    gap: 50px;
+}
+
+a{
+  color: white;
+}
+
+.homepage{
+    display: flex;
+    color:white;
+    font-size: 36pt;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin-top: 10px;
+}
+
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url(BAHNSCHRIFT.TTF);
+}
+
+.recipe-column{
+    width: 50vw;
+    font-size: 16px;
+    font-family: 'Bahnschrift', sans-serif;
+    line-height: 20px;
+    text-align: justify;
+}
